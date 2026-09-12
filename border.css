@@ -1,1 +1,61 @@
-hi
+body { font-size: 1rem;background-color:#002c45;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 12px cyan inset;
+    height:100%;
+    width:100%
+ }
+.color{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+nav {
+    height: 80px;
+    background-color:#ebd09b;
+    box-shadow: 2px 2px 12px #6bc1db;
+    align-items: center;
+    top: 0;
+    width:100%;
+    z-index:100;
+    position: sticky;
+    border-radius: 16px;
+}
+         .logo-area { display: flex; align-items: center; gap: 5px; font-size: 1.2rem; font-weight: 800;color:transparent;background:linear-gradient(50deg,purple,blue,yellow);margin-top:-40px;margin-left:50px;-webkit-background-clip:text;}
+.verified-badge {
+    width: 18px; 
+    height: 18px;
+    fill: #1DA1F2;
+}
+#title{
+    color:transparent;
+       background:conic-gradient(blue,cyan,yellow,gold,purple);
+    font-size:1.6rem;
+    -webkit-background-clip:text;
+}
+#tap{
+    color:transparent;
+       background:linear-gradient(90deg,orange,gold,blue,purple);
+    font-size:1.4rem;
+    -webkit-background-clip:text;
+}
+.color-1{
+    border:3px solid transparent;
+    border-radius:10px;
+    background:
+    linear-gradient(#a3fff6,#a3fff6)padding-box,
+    conic-gradient(from 0deg,red,orange,yellow,green,blue,purple) border-box
+}
+.generate-container{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.generate{
+    color:#00ff00;
+    font-size:50px;
+    background:
+    linear-gradient(90deg,blue,purple,cyan);
+    border-radius:15px
+}
